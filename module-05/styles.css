@@ -248,12 +248,12 @@ h2 {
 
 .slider-l {
     left: 15px;
-    background:url(../img/pre.png) #4ec6ab 50% no-repeat;
+    background:url(img/pre.png) #4ec6ab 50% no-repeat;
 }
 
 .slider-r {
     right: 15px;
-    background:url(../img/next.png) #4ec6ab 50% no-repeat;
+    background:url(img/next.png) #4ec6ab 50% no-repeat;
 }
 
 .wrapper-icons {
@@ -305,17 +305,17 @@ h2 {
 }
 
 .icon-heart {
-    background-image: url(../img/heart.png);
+    background-image: url(img/heart.png);
     background-position: center;
 }
 
 .icon-arrows {
-    background-image: url(../img/arrows.png);
+    background-image: url(img/arrows.png);
     background-position: center;
 }
 
 .icon-clock {
-    background-image: url(../img/clock.png);
+    background-image: url(img/clock.png);
     background-position: center;
 }
 
@@ -340,13 +340,13 @@ h2 {
     text-decoration: none;
     cursor:pointer;
     display: block;
-    background: url(../img/basket.png) no-repeat 15% 50%, url(../img/add_to_cart.png) no-repeat 75% 50%;
+    background: url(img/basket.png) no-repeat 15% 50%, url(img/add_to_cart.png) no-repeat 75% 50%;
 }
 
 .slider {
     height: 600px;
     width: 100%;
-    background: url(../img/slide4.png) no-repeat center;
+    background: url(img/slide4.png) no-repeat center;
     background-size: cover;
 }
 
