@@ -1,73 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Module-07</title>
+    <link href="https://fonts.googleapis.com/css?family=Gelasio:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab|Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>module-07</title>
 </head>
 <body>
-<div class="container">
-    <header>
-        <nav class="site-navigation">
-            <a href="#" class="logo">golden</a>
-            <ul class="site-navigation-links">
-                <li><a href="#">home</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">contact</a></li>
+    <header>        
+    <div class="wrapper">
+        <nav>
+            <a href="#" class="logo">Golden</a>
+            <ul class="navigation-list">
+                <li><a href="" class="navigation">Home</a></li>
+                <li><a href="" class="navigation">Services</a></li>
+                <li><a href="" class="navigation">Portfolio</a></li>
+                <li><a href="" class="navigation">About</a></li>
+                <li><a href="" class="navigation">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <main class="content">
-        <section class="content-services">
-            <header>
-                <h2 class="section-title">Services</h2>
-                <p class="section-subtitle">Proin iaculis purus consequat sem cure.</p>
-            </header>
-            <ul class="services">
-                <li class="service basket">
-                    <article class="article">
-                        <h3 class="name-services">E-Commerce</h3>
-                        <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                    </article>
-                </li>
-                <li class="service laptop">
-                    <article class="article">
-                        <h3 class="name-services">Responsive Web</h3>
-                        <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                    </article>
-                </li>
-                <li class="service lock">
-                    <article class="article">
-                        <h3 class="name-services">Web Security</h3>
-                        <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                    </article>
-                </li>
-            </ul>
-        </section>
-        <section class="wrapper-contact">
-            <div class="contact">
-                <header>
-                    <h2 class="section-title">Contact us</h2>
-                    <p class="section-subtitle">Proin iaculis purus consequat sem cure.</p>
-                </header>
-                <form class="users-message-information" action="#" method="get">
-                    <fieldset class="wrapper-contact-data">
-                            <input class="user-name" placeholder="Your Name&#42;" name="name" autofocus required type="text">
-                            <input class="user-email" placeholder="Your E-Mail&#42;" type="email" name="e-mail" required>
-                            <input class="subject" placeholder="subject" name="Subject" type="text">
-                    </fieldset>
-                    <textarea class="message element field" name="message" placeholder="your message*" required></textarea>
-                    <button class="button" type="submit">send message</button>
-                </form>
-            </div>
-        </section>
-    </main>
+    </nav>
+    </div>
+</header>
+<main>
+    <section class="services-sec">
+            <div class="wrapper">
+<h2 class="title">services<span class="pre-title">Lorem ipsum dolor sit amet.</span></h2>
+<ul class="services-list">
+    <li class="services-item">
+    <div class="services-card basket">
+        <h3 class="services-name">E-Commerce</h3>
+        <p class="services-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+    </div>
+    </li>
+    <li class="services-item">
+    <div class="services-card laptop">
+        <h3 class="services-name">Responsive Web</h3>
+        <p class="services-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+    </div>
+    </li>
+    <li class="services-item">
+    <div class="services-card lock">
+        <h3 class="services-name">Web Security</h3>
+        <p class="services-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+    </div>
+    </li>
+</ul>
 </div>
+</section>
+    <section class="contacts-sec">
+            <div class="wrapper">
+<h2 class="title">contact us<span class="pre-title">Lorem ipsum dolor sit amet.</span></h2>
+<form action="#" class="contacts-form">
+    <div class="left-input">
+        <input type="text" placeholder="your name *" name="name" required>
+        <input type="email" placeholder="your e-mail *" name="email" required>
+        <input type="text" placeholder="subject" name="subject">
+    </div>
+    <div class="right-input">
+        <textarea name="massage" placeholder="your massage *" cols="30" rows="10" required></textarea>
+    </div>
+ <input class="btn" type="submit" value="send massage">
+</form>  
+</div>
+</section>
+</main>
 </body>
 </html>
