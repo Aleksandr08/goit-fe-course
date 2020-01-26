@@ -242,15 +242,6 @@ img {
     position: relative;
   }
   
-  .service__item::before {
-    position: absolute;
-    left: 32px;
-    content: "";
-    height: 32px;
-    width: 32px;
-    background-repeat: no-repeat;
-  }
-  
   .icon-clock::before {
     background-image: url(../img/icons/ALARM.svg);
   }
@@ -260,7 +251,7 @@ img {
   }
   
   .icon-comp::before {
-    background-image: url(../img/icons/COMPUTER\ _\ OK.svg);
+    background-image: url(../img/icons/COMPUTER\.svg);
   }
   
   .icon-book::before {
@@ -273,6 +264,15 @@ img {
   
   .icon-qrcode::before {
     background-image: url(../img/icons/IMAGE.svg);
+  }
+
+  .service__item::before {
+    position: absolute;
+    left: 32px;
+    content: "";
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
   }
   
   /* Styles For Meet our team  */
