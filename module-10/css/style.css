@@ -398,7 +398,7 @@ img {
     cursor: pointer;
   }
   .icon-facebook {
-    background-image: url(.img/icons/icon-facebook.svg);
+    background-image: url(img/icons/icon-facebook.svg);
 }
 .icon-twitter {
     background-image: url(img/icons/icon-twitter.svg);
