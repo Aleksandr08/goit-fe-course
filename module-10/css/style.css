@@ -397,6 +397,18 @@ img {
     background: #fce38a;
     cursor: pointer;
   }
+  .icon-facebook {
+    background-image: url(../img/icons/icon-facebook.svg);
+}
+.icon-twitter {
+    background-image: url(../img/icons/icon-twitter.svg);
+}
+.icon-pinteres {
+ background-image: url(../img/icons/icon-pinteres.svg);
+}
+.icon-instagram{
+background-image: url(../img/icons/icon-instagram.svg);
+}
   .social-icon {
     fill: #f38181;
     width: 26px;
